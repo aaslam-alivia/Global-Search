@@ -37,6 +37,7 @@
         {
             "filterType": "Module",
             "filterValue": [
+                "Case within an Initiative",
                 "Case",
                 "Non Case",
                 "Data Request"
@@ -46,7 +47,6 @@
             "filterType": "Sub Module",
             "filterValue": [
                 "Manual Case",
-                "Case within an Initiative",
                 "Case Notes",
                 "Attachments",
                 "Brief and Summary",
@@ -63,16 +63,24 @@
             ]
         },
         {
-            "filterType": "Case Stage",
-            "filterValue": [
-                // List of all valid stages here
-            ]
+            "filterType": "Case Name",
+            "filterValue": []
         },
         {
-            "filterType": "Case Assignee",
-            "filterValue": [
-                // List of all assignees here 
-            ]
+            "filterType": "Plan Code & Name",
+            "filterValue": []
+        },
+        {
+            "filterType": "Assignee",
+            "filterValue": []
+        },
+        {
+            "filterType": "Stage",
+            "filterValue": []
+        },
+        {
+            "filterType": "Status",
+            "filterValue": []
         },
         {
             "filterType": "Claim Dates",
@@ -160,5 +168,5 @@
             ]
         }
     ]
-}
+}    
 ```
