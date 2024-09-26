@@ -17,13 +17,17 @@ curl --location "http://10.64.8.18:9200/attachmentsfiles8f6d5458-5e84-4e93-8bd7-
     "from": 0,
     "size": 1000
 }'
+```
 
 ## Get Index Document Count
 
+```bash
 curl -X GET "http://10.64.8.18:9200/attachmentsfiles8f6d5458-5e84-4e93-8bd7-49279eb97e48/_count" \ -u "elastic:Alivia@2024"
+```
 
 ## Search within Index Document
 
+```bash
 curl --location "http://10.64.8.18:9200/attachmentsfiles8f6d5458-5e84-4e93-8bd7-49279eb97e48/_search" \
 --header "Content-Type: application/json" \
 -u "elastic:Alivia@2024" \
@@ -34,6 +38,6 @@ curl --location "http://10.64.8.18:9200/attachmentsfiles8f6d5458-5e84-4e93-8bd7-
         }
     }
 }'
-
+```
 
 
