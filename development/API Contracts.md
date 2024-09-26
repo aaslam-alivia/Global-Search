@@ -35,7 +35,16 @@
     },
     "filters": [
         {
-            "filterType": "Section",
+            "filterType": "Module",
+            "filterValue": "All",
+            "configurableOptions": [
+                "Case",
+                "Non Case",
+                "Data Request"
+            ]
+        },
+        {
+            "filterType": "Sub Module",
             "filterValue": "All",
             "configurableOptions": [
                 "Manual Case",
