@@ -66,8 +66,9 @@
             "filterType": "Case Assignee",
             "filterValue": "All",
             "configurableOptions": [
-                // List of all assignee here 
+                // List of all assignees here 
             ]
+        },
         {
             "filterType": "Claim Dates",
             "filters": [
@@ -153,7 +154,6 @@
                 }
             ]
         }
-    }
+    ]
 }
 ```
-
