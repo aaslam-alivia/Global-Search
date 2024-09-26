@@ -36,8 +36,7 @@
     "filters": [
         {
             "filterType": "Module",
-            "filterValue": "All",
-            "configurableOptions": [
+            "filterValue": [
                 "Case",
                 "Non Case",
                 "Data Request"
@@ -45,8 +44,7 @@
         },
         {
             "filterType": "Sub Module",
-            "filterValue": "All",
-            "configurableOptions": [
+            "filterValue": [
                 "Manual Case",
                 "Case within an Initiative",
                 "Case Notes",
@@ -66,15 +64,13 @@
         },
         {
             "filterType": "Case Stage",
-            "filterValue": "All",
-            "configurableOptions": [
+            "filterValue": [
                 // List of all valid stages here
             ]
         },
         {
             "filterType": "Case Assignee",
-            "filterValue": "All",
-            "configurableOptions": [
+            "filterValue": [
                 // List of all assignees here 
             ]
         },
