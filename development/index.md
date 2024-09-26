@@ -2,28 +2,21 @@
 
 This project interacts with the following Elasticsearch indices:
 
-- **header**
-- **claims**
-- **claimsheader**
-- **claimsaudit**
-- **reporting**
-- **correspondence**
-- **brief**
-- **notes**
-- **involvedparties**
-- **attachments**
-- **findings**
-- **administrative_action**
-- **referrals**
-- **finance**
-- **attached-dashboard**
-- **attachmentsfiles**
-- **member**
-- **provider**
-
-## Multi-Index Search
-
-You can perform a search across multiple indices using the following request format:
-
-```bash
-POST https://localhost:9200/header,claims,claimsheader,claimsaudit,reporting,correspondence,brief,notes,involvedparties,attachments,findings,administrative_action,referrals,finance,attached-dashboard,attachmentsfiles,member,provider/_search
+1. **header{orgId}**
+2. **claims{orgId}**
+3. **claimsheader{orgId}**
+4. **claimsaudit{orgId}**
+5. **reporting{orgId}**
+6. **correspondence{orgId}**
+7. **brief{orgId}**
+8. **notes{orgId}**
+9. **involvedparties{orgId}**
+10. **attachments{orgId}**
+11. **findings{orgId}**
+12. **administrative_action{orgId}**
+13. **referrals{orgId}**
+14. **finance{orgId}**
+15. **attached-dashboard{orgId}**
+16. **attachmentsfiles{orgId}**
+17. **member**
+18. **provider**
