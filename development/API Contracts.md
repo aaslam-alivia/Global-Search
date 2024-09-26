@@ -29,6 +29,10 @@
 
 ```json
 {
+    "searchField": {
+        "searchTerm": "",
+        "filterActive": false
+    },
     "filters": [
         {
             "filterType": "Section",
@@ -61,9 +65,9 @@
         {
             "filterType": "Case Assignee",
             "filterValue": "All",
-            "dynamicOptions": true,
-            "onlyUnlockedUsers": true
-        },
+            "configurableOptions": [
+                // List of all assignee here 
+            ]
         {
             "filterType": "Claim Dates",
             "filters": [
@@ -117,7 +121,6 @@
                     "fromDate": "",
                     "toDate": ""
                 }
-                // Add more date fields as needed
             ]
         },
         {
@@ -150,12 +153,7 @@
                 }
             ]
         }
-    ],
-    "searchField": {
-        "searchTerm": "",
-        "filterActive": false
-    },
-    "ai_workflow_data_object": {}
+    ]
 }
 ```
 
