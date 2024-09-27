@@ -25,148 +25,26 @@
 
 # Advance Global Search 
 
-## Request
+## Request (with search test)
 
 ```json
 {
-    "searchField": {
-        "searchTerm": "",
-        "filterActive": false
+    "user": {
+        "userId": "12345",
+        "orgId": "org1",
+        "tenant": "tenantA"
     },
-    "filters": [
-        {
-            "filterType": "Module",
-            "filterValue": [
-                "Case within an Initiative",
-                "Case",
-                "Non Case",
-                "Data Request"
-            ]
-        },
-        {
-            "filterType": "Sub Module",
-            "filterValue": [
-                "Manual Case",
-                "Case Notes",
-                "Attachments",
-                "Brief and Summary",
-                "Involved Parties",
-                "Claims",
-                "Correspondence",
-                "Findings",
-                "Admin Actions",
-                "Referrals",
-                "Reports",
-                "Financials",
-                "Data Request",
-                "Non-case"
-            ]
-        },
-        {
-            "filterType": "Case Name",
-            "filterValue": []
-        },
-        {
-            "filterType": "Plan Code & Name",
-            "filterValue": []
-        },
-        {
-            "filterType": "Assignee",
-            "filterValue": []
-        },
-        {
-            "filterType": "Stage",
-            "filterValue": []
-        },
-        {
-            "filterType": "Status",
-            "filterValue": []
-        },
-        {
-            "filterType": "Claim Dates",
-            "filters": [
-                {
-                    "dateField": "Adjudication Date",
-                    "fromDate": "",
-                    "toDate": ""
-                },
-                {
-                    "dateField": "Invoice Date",
-                    "fromDate": "",
-                    "toDate": ""
-                },
-                {
-                    "dateField": "Member DOB",
-                    "fromDate": "",
-                    "toDate": ""
-                },
-                {
-                    "dateField": "Member DOD",
-                    "fromDate": "",
-                    "toDate": ""
-                },
-                {
-                    "dateField": "Paid Date",
-                    "fromDate": "",
-                    "toDate": ""
-                },
-                {
-                    "dateField": "Received Date",
-                    "fromDate": "",
-                    "toDate": ""
-                },
-                {
-                    "dateField": "Service From Date",
-                    "fromDate": "",
-                    "toDate": ""
-                }
-            ]
-        },
-        {
-            "filterType": "Case Action Dates",
-            "filters": [
-                {
-                    "dateField": "Case Transition Date",
-                    "fromDate": "",
-                    "toDate": ""
-                },
-                {
-                    "dateField": "Intake Date",
-                    "fromDate": "",
-                    "toDate": ""
-                }
-            ]
-        },
-        {
-            "filterType": "Non-Case Action Dates",
-            "filters": [
-                {
-                    "dateField": "Last Updated Date",
-                    "fromDate": "",
-                    "toDate": ""
-                },
-                {
-                    "dateField": "Creation Date",
-                    "fromDate": "",
-                    "toDate": ""
-                }
-            ]
-        },
-        {
-            "filterType": "Data Request Action Dates",
-            "filters": [
-                {
-                    "dateField": "Resubmitted Date",
-                    "fromDate": "",
-                    "toDate": ""
-                },
-                {
-                    "dateField": "Submitted Date",
-                    "fromDate": "",
-                    "toDate": ""
-                }
-            ]
-        }
-    ]
-}    
+    "search": "test",
+    "page": {
+        "page": 0,
+        "size": 10
+    }
+}
+
+```
+
+## Request (with search and filter)
+
+```json
+    
 ```
